@@ -1,0 +1,237 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonts */
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #ffffff00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    width: 200px;
+    height: 100px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 2rem;
+  }
+  
+  nav ul li a {
+    color: #f00;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #fff;
+  }
+  
+  /* Main Content Styles */
+  main {
+    margin-top: 7rem;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #hero h1 {
+    color: #fff;
+    font-size: 4rem;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 1rem;
+  }
+  
+  #hero h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 2rem;
+    font-family: 'Jacques Francois Shadow';
+  }
+  
+  /* About Section Styles */
+  #about {
+    background-color: #f5f5f5;
+  }
+  
+  #about h2 {
+    margin-bottom: 2rem;
+  }
+  
+  /* Services Section Styles */
+  #services {
+    background-image: url("services-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+  }
+  
+  #services h2 {
+    margin-bottom: 2rem;
+  }
+  
+  #services ul {
+    list-style: none;
+    margin-top: 2rem;
+  }
+  
+  #services ul li {
+    margin-bottom: 1rem;
+  }
+  
+  #services ul li:before {
+    content: '\2022';
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    background-color: #fff;
+  }
+  
+  #contact h2 {
+    margin-bottom: 2rem;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact label {
+    margin-bottom: 0.5rem;
+  }
+  
+  #contact input,
+  #contact textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+  
+  #contact button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: #fff;
+    color: #f00;
+  }
+
+/* CSS */
+.button-53 {
+  background-color: #d11616;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #fffcfc;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  opacity: 90%;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #ffffff;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+  
+  /* Parallax Scrolling Effect */
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+   
+  
